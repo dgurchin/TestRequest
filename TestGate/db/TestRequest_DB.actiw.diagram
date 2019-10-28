@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activeRecordMapping dslVersion="10.0.0.1" absoluteBounds="0, 0, 46.125, 15.75" name="DDos_DB">
+  <modelMoniker Id="31d25382-866a-44bf-9f24-8761618a4cee" />
+  <nestedChildShapes>
+    <classShape Id="fd0b64ae-b5f2-4c1d-81fc-2ed7f4a52b74" absoluteBounds="10.25, 12.25, 2, 3.0670068359375002">
+      <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tServers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac2ca352-3823-4a4f-85b4-dbed43b906cb" absoluteBounds="10.265, 12.66, 1.9700000000000002, 2.5570068359375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c66a92f-5fdd-4c97-8797-fb5299b8748a" absoluteBounds="27, 4.75, 1.5, 1.7208968098958333">
+      <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ebd58c5-f3c8-468c-8943-42d839af53d3" absoluteBounds="27.015, 5.16, 1.4700000000000002, 1.2108968098958333" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="007a3346-31f4-4f41-80d6-2ccc43b123f2" absoluteBounds="13.125, 12.625, 2.125, 1.9131982421874998">
+      <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tHeader_Params" />
+      <nestedChildShapes>
+        <elementListCompartment Id="745f4c49-6bae-42a3-a500-c8273955b741" absoluteBounds="13.14, 13.035, 2.0949999999999998, 1.4031982421875" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <nestedClassShape Id="5d145591-6620-44b4-a9d2-936cab864b4a" absoluteBounds="41, 13.75, 4.875, 1.7208968098958319">
+      <nestedClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tPayLoadData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8978710e-5e8a-4a61-aebd-97853a3bd39b" absoluteBounds="41.015, 14.16, 4.8450000000000006, 1.2108968098958333" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </nestedClassShape>
+    <classShape Id="48a0455e-462b-4d3e-81b2-fb873f29d80d" absoluteBounds="11.75, 9.5, 1.5, 2.1054996744791659">
+      <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tHeaderTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66ffcd42-3ff7-40a1-9f73-40ee942ccb66" absoluteBounds="11.765, 9.91, 1.4700000000000002, 1.5954996744791665" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb5fe778-1043-4874-8a95-14b23ba92ff2" absoluteBounds="42.625, 9.25, 1.5, 0.95169108072916586">
+      <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tPayLoad_Scenario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ffca499-5ab7-4d8c-92dd-65f6d90375a4" absoluteBounds="42.64, 9.66, 1.4700000000000002, 0.44169108072916663" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <nestedConnector edgePoints="[(43.375 : 13.75); (43.375 : 10.2016910807292)]" fixedFrom="NotFixed" fixedTo="NotFixed" TargetRelationshipDomainClassId="6d7cfc22-da01-49be-87ae-387c801c09a5">
+      <relativeChildShapes />
+      <nodes>
+        <nestedClassShapeMoniker Id="5d145591-6620-44b4-a9d2-936cab864b4a" />
+        <classShapeMoniker Id="eb5fe778-1043-4874-8a95-14b23ba92ff2" />
+      </nodes>
+    </nestedConnector>
+  </nestedChildShapes>
+</activeRecordMapping>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="10.0.0.1" Id="31d25382-866a-44bf-9f24-8761618a4cee" manyToManyCollectionIDColumnType="AnsiChar" manyToManyCollectionIDGenerator="None" xmlns="http://schemas.microsoft.com/dsltools/ActiveWriter">
+  <additionalImports>AAEAAAD/////AQAAAAAAAAAMAgAAAF1DYXN0bGUuQWN0aXZlV3JpdGVyLkRzbCwgVmVyc2lvbj0xLjIwMTAuMC4xLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTYwMzA0NTg1MTgzMWVkNWMEAQAAAJ4BU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydCwgQ2FzdGxlLkFjdGl2ZVdyaXRlci5Ec2wsIFZlcnNpb249MS4yMDEwLjAuMSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj02MDMwNDU4NTE4MzFlZDVjXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAABxDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydFtdAgAAAAgICQMAAAAAAAAAAAAAAAcDAAAAAAEAAAAAAAAABBpDYXN0bGUuQWN0aXZlV3JpdGVyLkltcG9ydAIAAAAL</additionalImports>
+  <classes>
+    <modelClass name="tServers">
+      <properties>
+        <modelProperty Id="a6bc3b18-3657-4725-8d67-b9023fa74596" name="ID_Servers" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="21814095-20a9-47e7-8e85-78bbb121e350" name="NameServer" length="0" />
+        <modelProperty Id="2b45e298-5fea-490b-a95c-eb398c26ea2a" name="ServerIP" length="0" />
+        <modelProperty Id="ad55a122-9e56-4abd-95e5-289f98b9c4bb" name="Port" columnType="Int16" length="0" />
+        <modelProperty Id="7f6fe419-dd9a-4d5e-9f86-ccd771be4915" name="Method" length="0" />
+        <modelProperty Id="e43a4810-be7a-4994-b4da-ea530211e883" name="Servers_Description" length="0" />
+        <modelProperty Id="f5ec3836-ba85-4641-9e0c-ebe05c67cd4f" name="Servers_Other" length="0" />
+        <modelProperty Id="d75cdeac-2ea4-437e-b858-74e3d14e6cf3" name="FileForExtension" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="f0907919-f805-4f4f-be1b-78c1a8683747" name="RequestLine" length="0" />
+        <modelProperty Id="7e5f9e6f-8843-4b4e-b3a3-22c36736385e" name="Protocol" length="0" />
+        <modelProperty Id="1181b404-ac34-401a-9cf1-b8122d98ef82" name="Password" length="0" />
+        <modelProperty Id="1fa0bfa4-a745-4868-aa84-4c43a227ac35" name="FileName" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tInfo">
+      <properties>
+        <modelProperty Id="9f9ffbf8-811a-43cb-91de-e0412c00f580" name="ID_Info" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="c024201b-ab25-4f1c-a174-96aedb5461e1" name="Version_DB" length="0" />
+        <modelProperty Id="5f9343d4-be07-4282-930c-8f1a6587f07f" name="Info_Description" length="0" />
+        <modelProperty Id="0291de40-ee39-4db8-a169-82556bcd5a4b" name="Info_Other" length="0" />
+        <modelProperty Id="8b083286-f0d1-4658-8087-bc0936eaafbe" name="FileForExtension" columnType="BinaryBlob" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tHeader_Params">
+      <properties>
+        <modelProperty Id="66c67aa7-13df-4b06-831d-b1c9af850f76" name="ID_Header_Params" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="3754b1ff-fcd5-480c-be63-b2808113bfa4" name="TemplateParametrs" length="0" />
+        <modelProperty Id="fc3d137e-4e44-4786-b9cf-3469cf3fa719" name="Header_Params_Description" length="0" />
+        <modelProperty Id="bd6c7ce1-8f6e-4b63-b9f2-d1530ae1ee4f" name="Header_Params_Other" length="0" />
+        <modelProperty Id="3e503cd0-1105-4e1b-bf52-d9ef4674b5f7" name="FileForExtension" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="3a99f590-1921-4e50-a54c-59f6bee46f2f" name="NameTemplate" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tHeaderTemplate">
+      <properties>
+        <modelProperty Id="f2479e5b-bb27-46c7-953d-e9ab2042b28b" name="ID_Header_Template" columnType="Int32" length="0" keyType="PrimaryKey" />
+        <modelProperty Id="d95ba138-f16d-48b2-944d-9d6813623924" name="ServerLine" length="0" />
+        <modelProperty Id="646ca72d-6f73-4ba2-a72e-9b50ca5f8d15" name="HeaderLine" length="0" />
+        <modelProperty Id="aa3f260b-4612-4167-a2a7-562531d2d470" name="Header_Description" length="0" />
+        <modelProperty Id="aa0deaaa-4a1c-464b-83e1-ebcbf76f00f6" name="FileForExtension" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="3183f3e4-4ac0-479a-9ae3-b2ead1be9f17" name="ServerPassword" length="0" />
+        <modelProperty Id="94eba213-f599-4355-b992-5952e4fd5269" name="Header_Other" length="0" />
+      </properties>
+    </modelClass>
+    <modelClass name="tPayLoad_Scenario">
+      <properties>
+        <modelProperty Id="9dffda38-7aab-4ae4-8538-e6ec17c32c9f" name="ID_PayLoad_Scenario" columnType="Int32" length="0" keyType="PrimaryKey" />
+      </properties>
+    </modelClass>
+  </classes>
+  <nestedClasses>
+    <nestedClass name="tPayLoadData">
+      <properties>
+        <modelProperty Id="d204f211-ad85-447d-8dde-b12b077be1d3" name="PayLoad_Content" length="0" />
+        <modelProperty Id="f49ca45a-6f0f-42bf-b439-b80842b98d87" name="PayLoad_Description" length="0" />
+        <modelProperty Id="a9ae805e-11e5-4693-adee-ed6f2d5ed9fd" name="PayLoad_Other" length="0" />
+        <modelProperty Id="e161699b-0bff-4724-85c9-89c3763f8c54" name="FileForExtension" columnType="BinaryBlob" length="0" />
+        <modelProperty Id="eb4f7a70-c0ba-480c-aebe-a5bd0eab0c50" name="PayLoad_Name" length="0" />
+      </properties>
+      <modelClasses>
+        <nestedClassReferencesModelClasses>
+          <modelClassMoniker name="/31d25382-866a-44bf-9f24-8761618a4cee/tPayLoad_Scenario" />
+        </nestedClassReferencesModelClasses>
+      </modelClasses>
+    </nestedClass>
+  </nestedClasses>
+</model>

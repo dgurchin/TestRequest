@@ -1,0 +1,16 @@
+D:\ddosattackv2\Debug\x64\SQLite.Interop.dll
+D:\ddosattackv2\Debug\x86\SQLite.Interop.dll
+D:\ddosattackv2\Debug\TestRequest.exe.config
+D:\ddosattackv2\Debug\TestRequest.exe
+D:\ddosattackv2\Debug\TestRequest.pdb
+D:\ddosattackv2\TestGate\obj\Debug\TestRequest.csprojResolveAssemblyReference.cache
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmPAYLOAD.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmMain.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestRequest.Properties.Resources.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmHeaderParametrs.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmHeaderTemplate.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmServerInfo.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestGate.frmSelect.resources
+D:\ddosattackv2\TestGate\obj\Debug\TestRequest.csproj.GenerateResource.Cache
+D:\ddosattackv2\TestGate\obj\Debug\TestRequest.exe
+D:\ddosattackv2\TestGate\obj\Debug\TestRequest.pdb
